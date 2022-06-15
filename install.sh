@@ -46,7 +46,7 @@ fi
 ########## Variables ############
 
 # versioning
-GITHUB_SOURCE="master"
+GITHUB_SOURCE="main"
 SCRIPT_RELEASE="canary"
 
 FQDN=""
@@ -72,8 +72,8 @@ ASSUME_SSL=false
 CONFIGURE_LETSENCRYPT=false
 
 # download URLs
-PANEL_DL_URL="https://github.com/pterodactyl/panel/releases/latest/download/panel.tar.gz"
-GITHUB_BASE_URL="https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/$GITHUB_SOURCE"
+PANEL_DL_URL="https://github.com/pterodactyl/panel/releases/download/v1.7.0/panel.tar.gz"
+GITHUB_BASE_URL="https://raw.githubusercontent.com/Zakariagtse1/pterodactyl-installer/main/install..sh/$GITHUB_SOURCE"
 
 # ufw firewall
 CONFIGURE_UFW=false
